@@ -43,46 +43,46 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2fs-fY-r4F">
                                         <rect key="frame" x="0.0" y="0.0" width="344" height="95.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMG-Um-VkB" userLabel="Card0">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMG-Um-VkB" userLabel="Card0">
                                                 <rect key="frame" x="0.0" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xMG-Um-VkB" secondAttribute="height" multiplier="2:3" id="dz2-Ld-euP"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
-                                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebo-7G-BtC"/>
+                                                    <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dW2-F1-REl"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6a-HI-VQc" userLabel="Card1">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6a-HI-VQc" userLabel="Card1">
                                                 <rect key="frame" x="93.5" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="M6a-HI-VQc" secondAttribute="height" multiplier="2:3" id="UU6-E9-Mud"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G14-pi-0df"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-uV-pQ8" userLabel="Card2">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-uV-pQ8" userLabel="Card2">
                                                 <rect key="frame" x="187" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="h6b-uV-pQ8" secondAttribute="height" multiplier="2:3" id="CWm-Zs-EWw"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rtm-2P-diu"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS3-no-Rs5" userLabel="Card3">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS3-no-Rs5" userLabel="Card3">
                                                 <rect key="frame" x="280.5" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="hS3-no-Rs5" secondAttribute="height" multiplier="2:3" id="Jfz-My-awN"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AYx-FS-JOB"/>
                                                 </connections>
@@ -97,46 +97,46 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Gq1-6i-wU8">
                                         <rect key="frame" x="0.0" y="115.5" width="344" height="95"/>
                                         <subviews>
-                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN0-eT-j5r" userLabel="Card4">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN0-eT-j5r" userLabel="Card4">
                                                 <rect key="frame" x="0.0" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="cN0-eT-j5r" secondAttribute="height" multiplier="2:3" id="rer-Vg-M0z"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ae4-Vh-xSq"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15z-X8-RvQ" userLabel="Card5">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15z-X8-RvQ" userLabel="Card5">
                                                 <rect key="frame" x="93.5" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="15z-X8-RvQ" secondAttribute="height" multiplier="2:3" id="P1O-cf-bJk"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JS4-ic-tnP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vc3-7i-bju" userLabel="Card6">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vc3-7i-bju" userLabel="Card6">
                                                 <rect key="frame" x="187" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Vc3-7i-bju" secondAttribute="height" multiplier="2:3" id="Jh2-aP-uO8"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xH-xs-ZhQ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEH-pW-eVM" userLabel="Card7">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEH-pW-eVM" userLabel="Card7">
                                                 <rect key="frame" x="280.5" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="dEH-pW-eVM" secondAttribute="height" multiplier="2:3" id="Fae-hL-6M6"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xYW-U6-yVS"/>
                                                 </connections>
@@ -155,46 +155,46 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pd8-ra-1np">
                                         <rect key="frame" x="0.0" y="230.5" width="344" height="95.5"/>
                                         <subviews>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMK-Zu-lkI" userLabel="Card8">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMK-Zu-lkI" userLabel="Card8">
                                                 <rect key="frame" x="0.0" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="yMK-Zu-lkI" secondAttribute="height" multiplier="2:3" id="nXJ-vG-8Xu"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZj-bW-gI1"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF8-EY-CFd" userLabel="Card9">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF8-EY-CFd" userLabel="Card9">
                                                 <rect key="frame" x="93.5" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="yF8-EY-CFd" secondAttribute="height" multiplier="2:3" id="0x9-le-8PY"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Hx-J7-iQ4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADx-rW-3mY" userLabel="Card10">
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADx-rW-3mY" userLabel="Card10">
                                                 <rect key="frame" x="187" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ADx-rW-3mY" secondAttribute="height" multiplier="2:3" id="Gsi-uT-hvm"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CwN-6A-MXx"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-sx-1yD" userLabel="Card11">
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhd-sx-1yD" userLabel="Card11">
                                                 <rect key="frame" x="280.5" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Nhd-sx-1yD" secondAttribute="height" multiplier="2:3" id="ghP-gb-vb5"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EvZ-gb-lu6"/>
                                                 </connections>
@@ -213,46 +213,46 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="3y4-Xe-Lht">
                                         <rect key="frame" x="0.0" y="346" width="344" height="95"/>
                                         <subviews>
-                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKG-um-3Ih" userLabel="Card12">
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKG-um-3Ih" userLabel="Card12">
                                                 <rect key="frame" x="0.0" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="WKG-um-3Ih" secondAttribute="height" multiplier="2:3" id="tcd-DR-IJV"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="grt-U3-SPT"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fa3-Du-oUm" userLabel="Card13">
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fa3-Du-oUm" userLabel="Card13">
                                                 <rect key="frame" x="93.5" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="fa3-Du-oUm" secondAttribute="height" multiplier="2:3" id="9hQ-X7-kIG"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gdk-4g-ugZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ti-Be-aka" userLabel="Card14">
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ti-Be-aka" userLabel="Card14">
                                                 <rect key="frame" x="187" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="7ti-Be-aka" secondAttribute="height" multiplier="2:3" id="U9f-J0-02i"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="49n-D0-INh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyb-nr-3dn" userLabel="Card15">
+                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyb-nr-3dn" userLabel="Card15">
                                                 <rect key="frame" x="280.5" y="0.0" width="63.5" height="95"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="nyb-nr-3dn" secondAttribute="height" multiplier="2:3" id="sJ5-3s-iQS"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3H3-NR-eeO"/>
                                                 </connections>
@@ -271,46 +271,46 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bn1-QA-pny">
                                         <rect key="frame" x="0.0" y="461" width="344" height="95.5"/>
                                         <subviews>
-                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIs-7o-YPo" userLabel="Card16">
+                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIs-7o-YPo" userLabel="Card16">
                                                 <rect key="frame" x="0.0" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="hIs-7o-YPo" secondAttribute="height" multiplier="2:3" id="IUW-aI-fhc"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jpg-5j-kca"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-CR-Xfc" userLabel="Card17">
+                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-CR-Xfc" userLabel="Card17">
                                                 <rect key="frame" x="93.5" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="4S9-CR-Xfc" secondAttribute="height" multiplier="2:3" id="Gy1-x0-NfS"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kdG-Z7-MDO"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ee-Nx-uGw" userLabel="Card18">
+                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ee-Nx-uGw" userLabel="Card18">
                                                 <rect key="frame" x="187" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="1ee-Nx-uGw" secondAttribute="height" multiplier="2:3" id="O0o-o7-GVb"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EFx-qT-shD"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w3-Fz-6GQ" userLabel="Card19">
+                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w3-Fz-6GQ" userLabel="Card19">
                                                 <rect key="frame" x="280.5" y="0.0" width="63.5" height="95.5"/>
                                                 <color key="backgroundColor" red="1" green="0.74789957480000002" blue="0.1147601687" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="0w3-Fz-6GQ" secondAttribute="height" multiplier="2:3" id="g91-l8-acZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                                 <connections>
                                                     <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d69-1M-AZJ"/>
                                                 </connections>
@@ -341,7 +341,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="missesLabel" destination="jAb-zP-4zD" id="xvz-vb-12R"/>
+                        <outlet property="missesLabel" destination="jAb-zP-4zD" id="A5R-PW-f7N"/>
                         <outletCollection property="cardButtons" destination="xMG-Um-VkB" collectionClass="NSMutableArray" id="5es-aY-4AT"/>
                         <outletCollection property="cardButtons" destination="M6a-HI-VQc" collectionClass="NSMutableArray" id="AJC-5p-Nh8"/>
                         <outletCollection property="cardButtons" destination="h6b-uV-pQ8" collectionClass="NSMutableArray" id="7nu-Hp-xeN"/>
