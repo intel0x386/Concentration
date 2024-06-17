@@ -1,0 +1,14 @@
+# User-specific Xcode settings
+# Build artifacts
+/build/
+*.xcodeproj/xcuserdata/
+
+.DS_Store
+
+*.xcuserdatad
+xcuserdata/
+
+
+# Logs and temporary files
+*.log
+*.tmp
